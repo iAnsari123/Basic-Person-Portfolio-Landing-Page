@@ -11,56 +11,55 @@ html {
 .header {
   background-image: url("header-bg.png");
   width: 100%;
+  height: 100vh;
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
-  padding: 50px;
+  padding: 0px 10px;
+  position: relative;
 }
 
 .text-container {
-  margin-top: 17%;
-  width: 50%;
-  height: 958px;
-  display: inline-block;
+  margin-left: 11%;
+  position: absolute;
+  top: 28%;
 }
-
 .text-container-intro {
-  font-weight: 400;
-  font-size: 60px;
+  font-size: 40px;
+  margin: 25px 25px 0px 25px;
+  font-weight: 300;
 }
 
 .text-container-name {
-  font-size: 80px;
+  margin: 0px 25px 15px 25px;
+  font-size: 50px;
   color: #ec4c7a;
 }
 
 .text-container-paragraph {
-  margin-top: 30px;
-  font-size: 18px;
-  padding: 10px 0;
+  font-size: 16px;
   color: #666;
+  padding: 5px;
+  margin: 25px 0px 25px 25px;
 }
 
 .text-container-hire {
+  display: inline-block;
+  padding: 10px 40px;
   outline: none;
-  margin-top: 30px;
-  padding: 15px 40px;
-  text-align: center;
-  text-transform: uppercase;
-  color: #fff;
   background-color: #ec4c7a;
+  color: #fff;
   border: none;
   border-radius: 5px;
+  cursor: pointer;
+  margin-left: 25px;
+  text-transform: uppercase;
   font-size: 16px;
-  font-weight: 400;
 }
 
-.img-container {
-  width: 50%;
-  height: 958px;
-  display: inline-block;
-}
-
-.img-container img {
-  width: 100%;
-  height: 100%;
+.header-feature {
+  width: 40%;
+  position: absolute;
+  right: 10%;
+  bottom: 90px;
 }
