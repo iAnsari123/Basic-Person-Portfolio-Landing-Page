@@ -1,0 +1,36 @@
+body {
+  font-family: "Caveat", cursive;
+}
+
+.high-width {
+  width: 40%;
+  margin-left: 5%;
+  float: left;
+  padding-left: 2%;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: left;
+}
+
+.img {
+  width: 65%;
+}
+.button {
+  background-color: deeppink;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+  font: 700;
+}
+.backgroundimg {
+  background-image: url(complete-web-development-bangla-resources-master/personal-website/biography-bg.png);
+  background-repeat: none;
+
+  background-size: cover;
+}
+
+section {
+  height: 500px;
+}
